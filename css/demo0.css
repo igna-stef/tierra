@@ -1,0 +1,86 @@
+body {
+    font-family: AcuminVariableConcept, sans-serif;
+    /* background-image: url(../img/j.gif); */
+}
+
+@font-face {
+    font-family: 'AcuminVariableConcept';
+    src: url('../fonts/AcuminVariableConcept.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.content__title {
+    font-size: 10%;
+}
+
+.content__credits {
+    margin: 2rem 0rem 6rem 0rem;
+    max-width: 37rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.frame__demos {
+    margin-left: auto;
+    align-items:center;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.frame__logo {
+    margin: auto;
+    max-height: 22px;
+}
+
+.tierra__title {
+    max-height: 18rem;
+    margin: 0rem 2rem -4rem 2rem;
+}
+
+@media (max-width: 768px) {
+    .content__title {
+        font-size: 8%;
+    }
+
+    .frame {
+        display:flex;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content{
+        justify-content: end;
+    }
+
+    .content__title {
+        font-size: 10%;
+    }
+    
+    .content__credits {
+        margin: 2rem 0rem 6rem 0rem;
+        max-width: 37rem;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .frame__demos {
+        margin-left: auto;
+        align-items:center;
+        display: flex;
+        margin-right: 1rem;
+    }
+    
+    .frame__logo {
+        margin: 1rem 1rem;
+        max-height: 22px;
+    }
+    
+    .tierra__title {
+        max-height: 18rem;
+        margin: 0rem 2rem -4rem 2rem;
+    }
+}
